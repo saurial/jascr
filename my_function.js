@@ -1,7 +1,8 @@
 "use strict";
- 
-function showMessage() {
-    alert("привет баран");
+
+function showMessage(a, b, c) {
+    
+    console.log( a + b + c );
 }
 
-showMessage();
+showMessage(5, 5, 4);
