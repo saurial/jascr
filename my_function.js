@@ -1,8 +1,6 @@
 "use strict";
 
-function showMessage(a, b, c) {
-    
-    console.log( a + b + c );
+function myfunc(text) {
+    console.log(text);
 }
-
-showMessage(5, 5, 4);
+myfunc("Вот уроды!!!");
