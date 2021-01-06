@@ -14,7 +14,7 @@ start();
 
 let personalMovieDB = {
      count: numberOfFilms,
-     movies: {},
+     movies: {},  
      actors: {},
      genres: [],
      privat: false
@@ -56,10 +56,11 @@ function showMyDB(hidden) {
 
 showMyDB(personalMovieDB.privat);
 
-function writeYourGenres() {
+function writeYourGenres() { 
     for (let i = 1; i <= 3; i++) {
         const a = prompt( `Ваш любимый жанр под номером ${i}`, "");
         personalMovieDB.genres[i - 1] = a;
+        // personalMovieDB.genres[i - 1] = prompt( `Ваш любимый жанр под номером ${i}`, ""); Так тоже можно делать/
     }
 }
 
