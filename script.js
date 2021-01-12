@@ -66,4 +66,4 @@ function writeYourGenres() {
 
 writeYourGenres();
 
-// console.log(personalMovieDB); 34
+// console.log(personalMovieDB); 
